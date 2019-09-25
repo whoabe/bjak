@@ -4,8 +4,9 @@ import Slider from "./Slider";
 const RowItem = ({ row }) => {
   return (
     <div>
-      <Slider />
-      {row.row_name} {console.log({ row })}
+      <Slider row={row} />
+      {row.row_name}
+      {/* {console.log({ row })} */}
     </div>
   );
   //   <img src={}/>;
