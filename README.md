@@ -18,25 +18,26 @@ Show the details from the response, the layout is up to your creativity
 https://whoabe-bjak.netlify.com
 
 ### Directory:
-.
-├── json examples # json exmaples from hooq.tv
-├── apis  
-    |──hooqtv.js # axios hooq for hooq.tv
-├── src # Source files  
-├── pages # pages for the react app
-└── README.md
+    .
+    ├── json examples           # json examples # json exmaples from hooq.tv
+    ├── apis                    
+    │   ├── hooqtv.js           # axios hooq for hooq.tv
+    ├── src                     # Source files (alternatively `lib` or `app`)
+    └── README.md
 
 ### App Structure:
-.
-├── App.js  
-    ├── DiscoverMovies.js #homepage  
-    ├── RowList.js #all multi-title-manual-curation movies
-        ├── RowItem.js #1 type movies + title
-            ├── MoviesContainer.js #1 type of movies
-                ├── MovieItem.js #movie poster image and title
-    ├── MovieDetailsPage.js #2nd link detailed movie info
-        ├── MovieDetailsInfo.js #detailed info about select movie
 
+    .
+    ├── App.js
+    │    │──── DiscoverMovies.js                     #homepage 
+    │       │────── RowList.js                       #all multi-title-manual-curation movies
+    │           │────── RowItem.js                   #1 type movies + title
+    │               │────── MoviesContainer.js       #1 type of movies
+    │                  └────── MovieItem.js          #movie poster image and title
+    │    │──── MovieDetailsPage.js                   #2nd link detailed movie info
+              └─────── MovieDetailsInfo.js           #detailed info about select movie   
+    
+    
 ### Tech:
 React.js
 
