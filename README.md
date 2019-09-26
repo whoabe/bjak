@@ -1,5 +1,4 @@
 ### Coding Challenge
-============================
 Please create 2 webpages with the following two endpoints:
 
 First page: list of movie/tvshow titles
@@ -19,6 +18,7 @@ Show the details from the response, the layout is up to your creativity
 https://whoabe-bjak.netlify.com
 
 ### Directory:
+.
 ├── json examples # json exmaples from hooq.tv
 ├── apis  
     |──hooqtv.js # axios hooq for hooq.tv
@@ -27,6 +27,7 @@ https://whoabe-bjak.netlify.com
 └── README.md
 
 ### App Structure:
+.
 ├── App.js  
     ├── DiscoverMovies.js #homepage  
     ├── RowList.js #all multi-title-manual-curation movies
