@@ -66,6 +66,10 @@
   cursor: pointer;
 }
 
+.movie_details_info {
+  margin: 2rem;
+}
+
 /* .slider {
   position: relative;
   width: 1255px;

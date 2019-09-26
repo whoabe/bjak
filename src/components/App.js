@@ -1,25 +1,28 @@
-import React, { Component } from "react";
-import RowList from "./RowList";
-import hooqtv from "../apis/hooqtv";
-import "../App.css";
+import React from "react";
+import { Route, Switch } from "react-router-dom";
 
-export default class App extends Component {
-  state = { rows: {} };
+import DiscoverMovies from "../pages/DiscoverMovies";
+import MovieDetailsPage from "../pages/MovieDetailsPage";
+// import "./App.css";
 
-  async componentDidMount() {
-    const response = await hooqtv.get("/feed?region=ID&page=1&perPage=20");
-    this.setState({
-      rows: response.data.data.filter(
-        m => m.type === "Multi-Title-Manual-Curation"
-      )
-    });
-  }
-
+class App extends React.Component {
   render() {
     return (
-      <div>
-        <RowList rows={this.state.rows} />
-      </div>
+      <>
+        <Switch />
+        {/* <Link to="/page=:pg">DiscoverMovies</Link>
+        <Link to="/users/1">My Profile</Link> */}
+
+        <Route exact path="/" component={DiscoverMovies} />
+        <Route
+          path="/titles/:id"
+          component={props => {
+            return <MovieDetailsPage {...props} />;
+          }}
+        />
+      </>
     );
   }
 }
+
+export default App;

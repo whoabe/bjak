@@ -1,0 +1,83 @@
+{
+  "data": {
+    "id": "6a2d15b6-46de-4494-8367-d268e96597da",
+    "parent_id": null,
+    "title": "Stand Up Battle Indonesia - Audisi Yogyakarta",
+    "description": "Pencarian komika digital pertama di Indonesia sudah di mulai! Tonton serunya pencarian talenta komika terbaik di kota Yogyakarta.",
+    "short_description": "Pencarian komika digital pertama di Indonesia sudah di mulai! Tonton serunya pencarian talenta komika terbaik di kota Yogyakarta",
+    "as": "MOVIE",
+    "region": "ID",
+    "languages": [],
+    "audios": ["Bahasa Indonesia"],
+    "streamable": true,
+    "downloadable": true,
+    "running_time": 1779000,
+    "images": [
+      {
+        "id": "e765e1ec-848e-44ec-b6a7-fbddb9cd4ed1",
+        "md5": "25c797dd9da3a66fa3c453f719138e3e",
+        "url": "https://commodusprod.hooq.tv/cdnimagesprod/titles/2339288/POSTER/1568623330-f568d1d78749ca43e8f8fef6f9a79e298a851627.jpg?",
+        "type": "POSTER",
+        "owner": "TITLE",
+        "storage": "COMMODUS",
+        "owner_id": "6a2d15b6-46de-4494-8367-d268e96597da"
+      },
+      {
+        "id": "a49d5f84-b378-40ec-a63e-3afc65130151",
+        "md5": "2b202f5eeecbdb428d3a2568e03e36d0",
+        "url": "https://commodusprod.hooq.tv/cdnimagesprod/titles/2339288/BACKGROUND/1568623331-d3a9617378a063e5f277279eb62b39cdb2a2bac5.jpg?",
+        "type": "BACKGROUND",
+        "owner": "TITLE",
+        "storage": "COMMODUS",
+        "owner_id": "6a2d15b6-46de-4494-8367-d268e96597da"
+      }
+    ],
+    "tags": [
+      {
+        "id": "581a1708-814c-4f45-a11e-02d629d928e3",
+        "tag": "comedy",
+        "meta": {
+          "genre": true
+        },
+        "label": "Comedy"
+      }
+    ],
+    "people": [],
+    "seasons": null,
+    "meta": {
+      "ageRating": "D",
+      "releaseYear": 2019,
+      "skip_update_image": true
+    },
+    "quickplay": {
+      "id": "116397",
+      "assetId": "116397"
+    },
+    "expires_on": "2024-09-25T16:59:00.000Z",
+    "created_at": "2019-09-24T17:05:41.647Z",
+    "updated_at": "2019-09-24T17:05:41.647Z",
+    "availability": "SVOD",
+    "reference_id": "2339288",
+    "tmdb_id": null,
+    "broadcast_date": null,
+    "asset_id": "bmimsubiauy",
+    "content_level": 10,
+    "lid": "c8f38b62-a08b-4442-b793-10566cc29618",
+    "trailers": {},
+    "campaigns": [],
+    "brightcove": {
+      "id": "6088701431001"
+    },
+    "pilot": true,
+    "avod": false,
+    "adLink": null,
+    "adFreqCap": null,
+    "adChannelId": null,
+    "running_time_player": "00:29:39",
+    "running_time_friendly": "30m"
+  },
+  "meta": {
+    "requestId": "79aef079-b03c-4efa-a6c6-1e3e548724c9",
+    "timestamp": 1569468589495
+  }
+}

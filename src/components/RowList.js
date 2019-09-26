@@ -20,13 +20,4 @@ const RowList = ({ rows }) => {
   }
 };
 
-// const MoviesList = ({ movies }) => {
-//   return (
-//     <div>
-//       <MovieItem />
-//       {console.log(movies)}
-//     </div>
-//   );
-// };
-
 export default RowList;
