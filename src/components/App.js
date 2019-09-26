@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import RowList from "./RowList";
 import hooqtv from "../apis/hooqtv";
+import "../App.css";
 
 export default class App extends Component {
   state = { rows: {} };

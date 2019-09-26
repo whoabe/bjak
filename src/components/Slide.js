@@ -1,7 +1,8 @@
 import React from "react";
 
 const Slide = ({ movie }) => {
-  //   return <div>{movie.images.length}</div>;
+  // console.log({ movie });
+  // return <div className="slide">{movie.id}</div>;
 
   for (var i = 0; i < movie.images.length; i++) {
     if (movie.images[i].type === "POSTER") {

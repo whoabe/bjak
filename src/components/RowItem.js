@@ -1,15 +1,15 @@
 import React from "react";
-import Slider from "./Slider";
+import MoviesContainer from "./MoviesContainer";
+// import Slider from "./Slider";
 
 const RowItem = ({ row }) => {
   return (
-    <div>
-      <Slider row={row} />
-      {row.row_name}
-      {/* {console.log({ row })} */}
+    <div className="row_item">
+      {/* <Slider row={row} /> */}
+      <MoviesContainer row={row} />
+      <h1 className="row_title">{row.row_name}</h1>
     </div>
   );
-  //   <img src={}/>;
 };
 
 export default RowItem;

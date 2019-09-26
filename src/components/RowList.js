@@ -14,7 +14,7 @@ const RowList = ({ rows }) => {
     const renderedList = rows.map(row => {
       return <RowItem key={row.obj_id} row={row} />;
     });
-    return <div>{renderedList}</div>;
+    return <section className="row_list">{renderedList}</section>;
   } else {
     return null;
   }
