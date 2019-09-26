@@ -42,7 +42,8 @@ https://whoabe-bjak.netlify.com
 React.js
 
 ### How to run:
-$ npm install_
+$ npm install
+
 $ npm start
 
 ### Future plans:
