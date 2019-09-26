@@ -1,4 +1,5 @@
-Coding Challenge
+### Coding Challenge
+============================
 Please create 2 webpages with the following two endpoints:
 
 First page: list of movie/tvshow titles
@@ -14,10 +15,10 @@ Second page: the details of the movie
 e.g. https://cdn-discover.hooq.tv/v1.2/discover/titles/e6464ce6-42c9-43ae-be23-0dd57f50add1
 Show the details from the response, the layout is up to your creativity
 
-Demo:
+### Demo:
 https://whoabe-bjak.netlify.com
 
-Directory:
+### Directory:
 ├── json examples # json exmaples from hooq.tv
 ├── apis  
     |──hooqtv.js # axios hooq for hooq.tv
@@ -25,7 +26,7 @@ Directory:
 ├── pages # pages for the react app
 └── README.md
 
-App Structure:
+### App Structure:
 ├── App.js  
     ├── DiscoverMovies.js #homepage  
     ├── RowList.js #all multi-title-manual-curation movies
@@ -35,14 +36,14 @@ App Structure:
     ├── MovieDetailsPage.js #2nd link detailed movie info
         ├── MovieDetailsInfo.js #detailed info about select movie
 
-Tech:
+### Tech:
 React.js
 
-How to run:
+### How to run:
 $ npm install
 $ npm start
 
-Future plans:
+### Future plans:
 Implement infnite scroll using react states and npm-package: react-infnite-scroller
 fix arrow functions
 improve css
