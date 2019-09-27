@@ -22,8 +22,8 @@ https://whoabe-bjak.netlify.com
 ### Directory:
 
     .
-    ├── json examples           # json examples from hooq.tv
-    ├── src                     # Source files (alternatively `lib` or `app`)
+    ├── json examples                   # json examples from hooq.tv
+    ├── src                             # Source files (alternatively `lib` or `app`)
     |   ├── apis
     |   │   ├── hooqtv.js               # axios for hooq.tv
     |   ├── components                  # components used in app
