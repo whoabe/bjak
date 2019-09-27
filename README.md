@@ -38,12 +38,12 @@ https://whoabe-bjak.netlify.com
     .
     ├── App.js
     │    │──── DiscoverMovies.js                     # homepage
-    │       │────── RowList.js                       # all multi-title-manual-curation movies
-    │           │────── RowItem.js                   # 1 type movies + title
-    │               │────── MoviesContainer.js       # 1 type of movies
-    │                  └────── MovieItem.js          # movie poster image and title
+    │    |  │────── RowList.js                       # all multi-title-manual-curation movies
+    │    |      │────── RowItem.js                   # 1 type movies + title
+    │    |          │────── MoviesContainer.js       # 1 type of movies
+    │    |             └────── MovieItem.js          # movie poster image and title
     │    │──── MovieDetailsPage.js                   # 2nd link detailed movie info
-              └─────── MovieDetailsInfo.js           # detailed info about select movie
+                └─────── MovieDetailsInfo.js         # detailed info about select movie
 
 ### Tech:
 
