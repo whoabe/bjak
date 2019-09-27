@@ -2,7 +2,6 @@ import React from "react";
 import convertHMS from "../helpers/convertHMS";
 
 const MovieDetailsInfo = ({ movieData }) => {
-  // console.log({ movieData });
   const info = movieData.data.data;
   console.log({ info });
 
@@ -32,9 +31,6 @@ const MovieDetailsInfo = ({ movieData }) => {
             {info.meta.releaseYear}
           </h2>
           <strong>{info.as}</strong>{" "}
-          {/* {info.as === "TVSHOW" ? (
-            <strong>| {info.seasons.length} Season</strong>
-          ) : null} */}
           {info.as === "TVSHOW" && info.seasons.length === 1 ? (
             <strong>| {info.seasons.length} Season</strong>
           ) : info.as === "TVSHOW" && info.seasons.length > 1 ? (
@@ -72,22 +68,11 @@ const MovieDetailsInfo = ({ movieData }) => {
             {convertHMS(info.running_time)}
           </div>
         ) : null}
-        {/* <div>
-          <strong>Running Time: </strong>
-          {convertHMS(info.running_time)}
-        </div> */}
 
         <div>
           <strong>Expires On: </strong>
           {info.expires_on.slice(0, 10)}
         </div>
-
-        {/* <div>
-          <strong>Director: </strong>
-          {director.map(d => {
-            return <div key={d.name}>{d.name}</div>;
-          })}
-        </div> */}
 
         <div>
           {" "}

@@ -51,11 +51,6 @@
   /* align-items: center; */
 }
 
-/* hides the scrollbar */
-/* .movies_container::-webkit-scrollbar {
-  display: none;
-} */
-
 .movie_item {
   background-color: #282c34;
   min-height: 0;
