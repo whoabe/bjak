@@ -36,13 +36,13 @@ https://whoabe-bjak.netlify.com
 ### React App Structure:
 
     .
-    ├── App.js
-    │    │──── DiscoverMovies.js                     # homepage
-    │    |  │────── RowList.js                       # all multi-title-manual-curation movies
-    │    |      │────── RowItem.js                   # 1 type movies + title
-    │    |          │────── MoviesContainer.js       # 1 type of movies
-    │    |             └────── MovieItem.js          # movie poster image and title
-    │    └──── MovieDetailsPage.js                   # 2nd link detailed movie info
+    └── App.js
+         │──── DiscoverMovies.js                     # homepage
+         |  └────── RowList.js                       # all multi-title-manual-curation movies
+         |      └────── RowItem.js                   # 1 type movies + title
+         |          └────── MoviesContainer.js       # 1 type of movies
+         |             └────── MovieItem.js          # movie poster image and title
+         └──── MovieDetailsPage.js                   # 2nd link detailed movie info
                 └─────── MovieDetailsInfo.js         # detailed info about select movie
 
 ### Tech:
