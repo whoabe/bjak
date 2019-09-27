@@ -30,7 +30,7 @@ https://whoabe-bjak.netlify.com
     |   ├── helpers                     # helper functions
     |   │        ├── convertHMS.js      # convert var in ms to HH:MM:SS
     |   ├── pages                       # pages of the app
-    |   ├── App.css                     # styleSheet for App
+    |   └── App.css                     # styleSheet for App
     └── README.md
 
 ### React App Structure:
@@ -42,7 +42,7 @@ https://whoabe-bjak.netlify.com
     │    |      │────── RowItem.js                   # 1 type movies + title
     │    |          │────── MoviesContainer.js       # 1 type of movies
     │    |             └────── MovieItem.js          # movie poster image and title
-    │    │──── MovieDetailsPage.js                   # 2nd link detailed movie info
+    │    └──── MovieDetailsPage.js                   # 2nd link detailed movie info
                 └─────── MovieDetailsInfo.js         # detailed info about select movie
 
 ### Tech:
