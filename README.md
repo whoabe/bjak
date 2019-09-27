@@ -28,7 +28,7 @@ https://whoabe-bjak.netlify.com
     |   │   ├── hooqtv.js               # axios for hooq.tv
     |   ├── components                  # components used in app
     |   ├── helpers                     # helper functions
-    |   │        ├── convertHMS.js      # convert var in ms to HH:MM:SS
+    |   │        └── convertHMS.js      # convert var in ms to HH:MM:SS
     |   ├── pages                       # pages of the app
     |   └── App.css                     # styleSheet for App
     └── README.md
