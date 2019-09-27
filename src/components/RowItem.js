@@ -5,7 +5,6 @@ import MoviesContainer from "./MoviesContainer";
 const RowItem = ({ row }) => {
   return (
     <li className="row_item">
-      {/* <Slider row={row} /> */}
       <MoviesContainer row={row} />
       <h1 className="row_title">{row.row_name}</h1>
     </li>

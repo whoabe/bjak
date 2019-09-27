@@ -10,9 +10,6 @@ class App extends React.Component {
     return (
       <>
         <Switch />
-        {/* <Link to="/page=:pg">DiscoverMovies</Link>
-        <Link to="/users/1">My Profile</Link> */}
-
         <Route exact path="/" component={DiscoverMovies} />
         <Route
           path="/titles/:id"
