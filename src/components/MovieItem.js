@@ -9,7 +9,9 @@ const MovieItem = ({ movie }) => {
           <Link to={`/titles/${movie.id}`}>
             <img src={movie.images[i].url} alt={movie.images[i].id} />
           </Link>
-          <strong>{movie.title}</strong>
+          <figcaption className="caption">
+            <strong>{movie.title}</strong>
+          </figcaption>
         </div>
       );
     } else {
