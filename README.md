@@ -15,9 +15,6 @@ Second page: the details of the movie
 e.g. https://cdn-discover.hooq.tv/v1.2/discover/titles/e6464ce6-42c9-43ae-be23-0dd57f50add1
 Show the details from the response, the layout is up to your creativity
 
-### Demo:
-
-https://whoabe-bjak.netlify.com
 
 ### Directory:
 
